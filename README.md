@@ -35,7 +35,7 @@
 
 10. 项目部署前，需要先在 GitHub 仓库中建立一个名为 `username.github.io` 的仓库，其中 `username` 是你的 GitHub 账户名称。这个仓库可以生成一个域名，你可以在这个域名下创建仓库，将一些静态内容资源托管到上面，比如自己的博客。
 
-11. 回到项目，在命令行中输入 `npm run pub` 命令，会自动创建一个 gh-pages 分支并推送到 GitHub 的仓库。
+11. 回到项目，在命令行中先输入`cnpm install cross-env`再输入 `npm run pub` 命令，会自动创建一个 gh-pages 分支并推送到 GitHub 的仓库。
 
 12. 打开上面 Fork 的仓库地址，点击设置，滑动到 `GitHub Pages` 设置选项，将分支选择为 `gh-pages`。
 
