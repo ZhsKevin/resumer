@@ -95,8 +95,8 @@ module.exports = {
       allChunks: true,
     }),
     new EndWebpackPlugin(async () => {
-      // 自定义域名
-      // fs.writeFileSync(path.resolve(outputPath, 'CNAME'), 'resume.zhssss.top');
+
+      fs.writeFileSync(path.resolve(outputPath, 'CNAME'), 'hshuai.xyz');
 
       await publishGhPages();
     }),
