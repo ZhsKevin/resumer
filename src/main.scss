@@ -408,14 +408,15 @@ figcaption {
 
 .github-footer {
   text-align: center;
-  font-size: 17px;
+  font-size: 80%;
 
   .footer-link {
     display: inline-block;
     color: $color-gray;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     @media screen and (max-width: 1024px) {
-      margin-top: 25px;
+      margin-top: 15px;
+      margin-bottom: 15px;
     }
   }
 
