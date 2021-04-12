@@ -6,9 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--  <meta name="referrer" content="never">-->
-<!--  &lt;!&ndash;  QQ空间图片处理  不需要可以删除&ndash;&gt;-->
+<!--  &lt;!&ndash;  第三方非专业图床使用  不需要可删除&ndash;&gt;-->
   <script type="text/javascript" src="main.js"></script>
-  <title>简历 | 张宏帅</title>
+  <title>张宏帅丨简历</title>
+  <link rel="icon" href="https://cdn.jsdelivr.net/gh/ZhsKevin/cdn/img/logo-freeh.ico" type="image/x-icon">
   <style rel="stylesheet">html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -71,7 +72,7 @@ body {
   -webkit-text-size-adjust: none;
   background-color: #eee;
   overflow: auto;
-  padding-top: 5px; }
+  padding-top: 1px; }
   @media screen and (max-width: 1024px) {
     body {
       padding-top: 0; } }
@@ -86,12 +87,12 @@ a {
 
 .last-modified {
   position: absolute;
-  top: 30px;
+  top: 8px;
   left: 50%;
   width: 1000px;
   color: #bbb;
   margin-left: -500px;
-  font-size: 12px;
+  font-size: 15px;
   text-align: right; }
   @media screen and (max-width: 1024px) {
     .last-modified {
@@ -102,7 +103,7 @@ a {
 
 .download-pdf {
   position: absolute;
-  top: 30px;
+  top: 10px;
   left: 50%;
   color: #bbb;
   margin-left: -500px;
@@ -138,7 +139,7 @@ a {
 
 .content-hd {
   width: 100%;
-  padding: 0px 50px;
+  padding: 0 50px;
   color: #fff;
   overflow: hidden; }
   @media screen and (max-width: 720px) {
@@ -267,6 +268,12 @@ a {
     height: 32px;
     margin: 10px auto 5px;
     overflow: hidden; }
+  .content-bd .section-hd-download {
+    position: relative;
+    height: 64px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    overflow: hidden; }
   .content-bd .section-bd {
     overflow: hidden; }
     .content-bd .section-bd ul li {
@@ -306,6 +313,16 @@ a {
     font-weight: bold;
     text-align: center;
     background-color: #eee; }
+  .content-bd .section-title-download {
+    position: relative;
+    z-index: 1;
+    width: 24%;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; }
   .content-bd .section-list {
     padding: 10px 0 5px; }
   .content-bd .item-hd {
@@ -408,12 +425,18 @@ figcaption {
   font-size: 80%; }
   .github-footer .footer-link {
     display: inline-block;
-    color: #d1d1d1;
-    margin-bottom: 20px; }
+    color: #666;
+    margin-bottom: 10px; }
     @media screen and (max-width: 1024px) {
       .github-footer .footer-link {
         margin-top: 15px;
-        margin-bottom: 15px; } }
+        margin-bottom: 0; } }
+    .github-footer .footer-link .footer-link-img {
+      border-radius: 3px;
+      border: none;
+      margin: 5px auto;
+      display: inline;
+      float: left; }
   @media print {
     .github-footer {
       display: none; } }
@@ -425,17 +448,21 @@ figcaption {
       text-indent: 2em;
       /*margin: 1px auto;*/
       /*margin-top: 3px;*/
-      line-height:1.5;
+      /*margin-top: 2px;*/
+      line-height:1.6;
     }
   </style>
 </head>
 
 <body>
-  <p class="last-modified">最后更新于2021年3月</p>
-  <a class="download-pdf" href="resume.pdf">下载 PDF</a>
+
 
   <main class="content">
     <!--基本信息-->
+<!--    <p class="last-modified">最后更新于2021年3月</p>-->
+<!--    <p class="last-modified">下载 PDF</p>-->
+<!--    <a class="download-pdf" href="/resume.pdf">下载 PDF</a>-->
+<!--    <a class="last-modified" href="/resume.pdf">下载PDF版</a>-->
     <br>
     <header class="content-hd">
       <section class="title">
@@ -510,33 +537,33 @@ figcaption {
               <div class="item-bd">
                 <ul class="section-content">
                 <li>
-                  <strong>2021.1 – 2020.&nbsp;3&nbsp;&nbsp;山东樾海软件科技有限公司 &nbsp;｜Java开发工程师（实习生）</strong>
+                  <strong>2021.1 – 2020.&nbsp;3&nbsp;&nbsp;山东樾海软件科技有限公司 &nbsp;｜Java开发工程师</strong>
                 </li>
                 <li>
-                  <strong>2020.7  – 2020.10&nbsp;山东樾海软件科技有限公司&nbsp;&nbsp;｜软件开发工程师&nbsp;（实习生）</strong>
+                  <strong>2020.7  – 2020.10&nbsp;山东樾海软件科技有限公司&nbsp;&nbsp;｜软件开发工程师</strong>
                 </li>
                   <br>
                 <div class="item">
                 <ul class="section-content">
-                  <p>参与项目需求分析，编写概要设计文档。</p>
-                  <p>协助团队进行应用设计及开发规划。 </p>
-                  <p>承担部分开发任务，按计划完成任务目标。  </p>
-                  <p>协助测试人员完成模块测试，并对模块质量负责。</p>
-                  <p>完成上级分配的其他工作任务并解决系统开发、运行中出现的各种问题。</p>
+                  <p>参与项目需求分析，编写概要设计文档</p>
+                  <p>协助团队进行应用设计及开发规划</p>
+                  <p>承担部分开发任务，按计划完成任务目标</p>
+                  <p>协助测试人员完成模块测试，并对模块质量负责</p>
+                  <p>完成上级分配的其他工作任务并解决系统开发、运行中出现的各种问题</p>
                 </ul>
               </div>
 
               <div class="item-bd">
                 <ul class="section-content">
                 <li>
-                  <strong>2020.1 – 2020.&nbsp;6&nbsp;&nbsp;中国人寿集团｜业务行政部门｜金融销售（实习生）</strong>
+                  <strong>2020.1 – 2020.&nbsp;6&nbsp;&nbsp;中国人寿集团｜业务行政部门｜金融顾问</strong>
                 </li>
                   <br>
                   <div class="item">
                 <ul class="section-content">
-                  <p>期间主要负责金融方向收展销售工作。</p>
-                  <p>第二个月获得最佳新人称号，三月佣金收入25K+。 </p>
-                  <p>期间掌握了一定的销售技能以及沟通技能、对于服务行业有了更深的体会。</p>
+                  <p>期间主要负责金融方向收展销售工作</p>
+                  <p>第二个月获得最佳新人称号，三月佣金收入25K+ </p>
+                  <p>期间掌握了一定的销售技能以及沟通技能、对于服务行业有了更深的体会</p>
                 </ul>
               </div>
 
@@ -593,10 +620,10 @@ figcaption {
                       <br>
                       <ul class="section-content">
                         <a style="line-height:1cm" href="https://hsweather.hshuai.xyz/">
-<strong>H&amp;S气象预测系统</strong>
+<strong>H&amp;S气象预测</strong>
                         </a>
                         <br>
-                        <p>本系统为一套基于机器学习方法Scikit-learn(sklearn)与Python结合实现的气象预报以及气象动态展示系统，本系统分为两个模块，模块间独立运行，之间的数据传输均使用JSON格式传输。</p>
+                        <p>H&amp;S气象为一套基于机器学习方法 Scikit-learn (sklearn) 结合 Python 实现的气象预测以及气象动态展示的系统，本系统分为两个模块，模块间独立运行，之间的数据传输均使用JSON格式传输。</p>
 
                         <p>第一个模块为气象信息动态展示模块，使用Python结合Flask框架，通过Apache-ECharts等技术实现实时天气动态展示。第二个模块为气象预测模块，主要使用的机器学习库包括Sklearn、Panda、Seaborn、Joblib等。
                           所用模型为随机树森林、评估方法为MAE平均错误数值方法。 </p>
@@ -646,8 +673,8 @@ figcaption {
                   <li>熟练掌握 Spring、SpringMVC、MyBatis 等开源框架应用知识，能快速熟悉框架整合下的项目开发，深刻理解 SpringMVC 核心运行流程，
                     熟练使用 MyBatis 逆向工程进行快速代码构建，理解 Spring IOC、AOP；</li>
                   <br>
-                  <li>熟练掌握 SpringBoot 框架，能利用 SpringBoot 整合 Mybatis、SpringMVC、事务、连接池、 Junit、redis 等技术；熟悉微服务框架 SpringCloud，
-                    并能够基于 SpringCloud 进行微服务的开发；</li>
+                  <li>熟练掌握 SpringBoot 框架的使用，能够整合 Mybatis、SpringMVC、事务、连接池、Junit、Redis 等技术；熟悉微服务框架 SpringCloud，
+                    能基于 SpringCloud 进行微服务的开发；</li>
                   <br>
                   <li>熟练掌握 RabbitMQ 的配置及使用，理解规范下 Pub/Sub 等 6 种消息模式，了解分布式 RPC 框架 Apache Dubbo，
                     了解 ElasticSearch 分布式搜索服务，对多项目集成环境下的消息生产者消费者模式有使用经验；</li>
@@ -658,7 +685,7 @@ figcaption {
                   <li>熟练掌握 MySQL 日常 DML/DDL/DQL 操作，掌握日常 SQL 诊断和性能分析策略，能快速定位 SQL 语句导致索引失效等关键点，
                     能熟练配置 MySQL 主从复制；</li>
                   <br>
-                  <li>熟悉分布式文件系统 FastDFS，能够实现文件系统的分布式部署，解决大容量存储和负载均衡等问题</li>
+                  <li>熟悉分布式文件系统 FastDFS，能够实现文件系统的分布式部署，解决大容量存储和负载均衡等问题；</li>
                   <br>
                   <li>熟悉 HTML/CSS、JavaScript，JQuery、XML、Ajax 、EasyUI、Cookie、session 等前端开发技术。深刻理解 JavaScript 面向对象编程思想。
                     熟悉 Ajax 技术和 JSON 数据交换格式，熟悉使用 WebService 调用第三方接口；</li>
@@ -671,7 +698,7 @@ figcaption {
                   <br>
                   <li>了解 Tomcat 配置调优及 APR 开发模式，了解 Apache ab 压力测试，对Tomcat 启动优化、并发优化以及内存优化等调优技术均有使用经验；</li>
                   <br>
-                  <li>英语水平：CET-6、自学雅思英语，能无障碍阅读相关英文原著及开发文档；</li>
+                  <li>英语水平：CET-6、自学雅思英语，能无障碍阅读英文原著及开发文档；</li>
                 </ul>
               </div>
             </div>
@@ -679,7 +706,7 @@ figcaption {
         <section class="file">
           <header class="section-hd">
             <span class="section-title-l"></span>
-            <h2 class="section-title">项目详情</h2>
+            <h2 class="section-title">项目演示</h2>
             <span class="section-title-r"></span>
           </header>
           <div class="section-bd">
@@ -705,14 +732,6 @@ figcaption {
                   <figcaption>H&amp;Store商城</figcaption>
                 </figure>
 
-
-<!--                <figure>-->
-<!--                  <img class="file-col-image" src="https://pcsdata.baidu.com/thumbnail/e66dfc013u7c81b3a8ee440835dfdb03?fid=2141269837-1605
-1585-864441560920000&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-XOcViMyOWv8T%2Bq3JhNcFIJlILeU%3D&expires=2h&chkv=0&chkbd=0&chkpc=&dp-logid=912551
-201&dp-callid=0&time=1613797200&size=c1600_u1600&quality=100&vuk=-&ft=video"/>-->
-<!--                  <figcaption>微信</figcaption>-->
-<!--                </figure>-->
-
               </div>
             </div>
 
@@ -735,22 +754,14 @@ figcaption {
                       <figcaption>微信</figcaption>
                     </figure>
 
-
-
-
-                    <!--                <figure>-->
-                    <!--                  <img class="file-col-image" src="https://pcsdata.baidu.com/thumbnail/e66dfc013u7c81b3a8ee440835dfdb0
-                    3?fid=2141269837-16051585-864441560920000&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-XOcViMyOWv8T%2Bq3JhNcFIJlILeU%3D&expi
-                    res=2h&chkv=0&chkbd=0&chkpc=&dp-logid=912551201&dp-callid=0&time=1613797200&size=c1600_u1600&quality=100&vuk=-&ft=video"/>-->
-                    <!--                  <figcaption>微信</figcaption>-->
-                    <!--                </figure>-->
+<!--                    <figure>-->
+<!--                      <img class="file-col-image" src="https://zhs-common.oss-cn-beijing.aliyuncs.com/resume-download.jpg"/>-->
+<!--                      <figcaption>来份简历</figcaption>-->
+<!--                    </figure>-->
 
                   </div>
                 </div>
       </div>
-
-
-
 
   </section>
 </div>
@@ -769,15 +780,19 @@ figcaption {
 </div>
 </main>
 
-
-
-
-
   <footer class="github-footer">
-    <a class="footer-link" href="https://hshuai.xyz/"> Copyright © 2020-2021 </a>
-    <a class="footer-link" href="https://beian.miit.gov.cn/"> 鲁ICP备2021005988号 </a>
-<!--    <p> Copyright &copy; 2019-2020<a href="/" target="_blank" text='hshuai.xyz'+ ')' }"></a>-->
-<!--      <a class="footer-link" href="https://beian.miit.gov.cn/"> Copyright &copy; 2019-2020</a>-->
+    <div>
+      <a class="footer-link" href="https://hshuai.xyz/"> Copyright © 2020 - 2021&nbsp;&nbsp;&nbsp; </a>
+      <a href="https://hswag.cn/resume.pdf">下载 PDF 版简历&nbsp;&nbsp;&nbsp;</a>
+<!--      <a href="https://baidu.com">本页源码</a>-->
+      <br>
+      <a class="footer-link" target="blank" rel="noopener noreferrer" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37050202371191" recordcode="37050202371191">
+        <img class="footer-link-img" src="https://cdn.jsdelivr.net/gh/ZhsKevin/cdn/img/beian.png">
+鲁公网安备 37050202371191号&nbsp;&nbsp;&nbsp;</a>
+      <a class="footer-link" href="https://beian.miit.gov.cn/">鲁ICP备2021005988号</a>
+
+
+    </div>
   </footer>
 
 
