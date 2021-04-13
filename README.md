@@ -24,7 +24,7 @@
 5. 打开编辑器对简历内容进行修改。
 
 5. 项目的整体目录结构如下：
-            
+
             `├── README.md
                 ├── node_modules
                 ├── package-lock.json
@@ -34,7 +34,7 @@
                 ├── webpack-dist.config.js
                 ├── webpack.config.js
                 └── webpack.js`
-        
+
 7. 修改简历内容，直接编辑 `index.html` 文件。
 
 8. 如果要修改简历的样式，比如主题色、字体等等，需要编辑 `main.css` 文件。
@@ -55,7 +55,7 @@
 
 ###### 如果觉得同步太麻烦而且访问速度慢，不想使用GitHub pages。也可使用域名解析+云存储实现静态网页展示（我就是用的这种方式）
 
-###### 	以阿里云为例       
+###### 	以阿里云为例
 
 1. 项目部署前，需要先在[阿里云](https://www.aliyun.com/)购买一个OOS对象存储服务（一年九块钱真不贵），新建一个Bucket，设置为公共读私有写，别的额外收费的服务都不用开通。
 
@@ -188,7 +188,7 @@ $theme-color: #126ab8;
 
 1. 项目部署前，需要先在 GitHub 仓库中建立一个名为 `username.github.io` 的仓库，其中 `username` 是你的 GitHub 账户名称。这个仓库可以生成一个域名，你可以在这个域名下创建仓库，将一些静态内容资源托管到上面，比如自己的博客。
 2. 回到项目输入 `npm run pub` 命令，会自动创建一个 gh-pages 分支并推送到你fork的 GitHub 的仓库。（如果有什么启动不了的错误是环境问题，可以尝试回到项目，在命令行中先输入`npm install cross-env`再输入 `npm run pub` 命令）
-3. 打开上面 Fork 的仓库地址，点击设置，往下滑动到 `GitHub Pages` 设置选项，将分支选择为 `gh-pages`。此时上面的网站就是我说的设置域名，如果你没有设置域名则这个地方应该是https://yourname.github.io/MyResume/ 
+3. 打开上面 Fork 的仓库地址，点击设置，往下滑动到 `GitHub Pages` 设置选项，将分支选择为 `gh-pages`。此时上面的网站就是我说的设置域名，如果你没有设置域名则这个地方应该是https://yourname.github.io/MyResume/
    ![在这里插入图片描述](https://cdn.jsdelivr.net/gh/ZhsKevin/cdn/projects/resume/9.png)
 4. 然后打开生成的网页即可看到在线的简历，将链接发给其他人，其他人通过浏览器打开可以直接访问
 5. 使用快捷键 `ctrl+p` 或者 `command+p` 调用浏览器的打印功能，可以将简历导出为 pdf 格式的文件。
@@ -197,7 +197,7 @@ $theme-color: #126ab8;
 
 ###### 如果觉得同步太麻烦而且访问速度慢，不想使用GitHub pages。也可使用域名解析+云存储实现静态网页展示（我就是用的这种方式）
 
-###### 	以阿里云为例       
+###### 	以阿里云为例
 
 1. 项目部署前，需要先在阿里云购买一个OOS对象存储服务（一年九块钱真不贵），新建一个Bucket，设置为公共读私有写，别的额外收费的服务都不用开通。
 
