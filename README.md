@@ -1,10 +1,6 @@
-<img src="https://cdn.jsdelivr.net/gh/ZhsKevin/cdn/img/Tot.png" alt="avatar" style="zoom: 10%; border-radius:50%;" />
+# H&S简历
 
-<h1><center><strong>H&S简历</strong></center></h1>
-
-<h3><center><strong>一份优雅简约的在线简历</strong></center></h3>
-
-
+## 一份优雅简约的在线简历
 
 - 优化构建，页面秒开无闪烁
 - 自适应屏幕兼容移动端
@@ -79,11 +75,15 @@
 
 ## **电脑端：**
 
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/ZhsKevin/cdn/projects/resume/2.png)
+图片预览：https://cdn.jsdelivr.net/gh/ZhsKevin/cdn/projects/resume/11.png
+
+![image-20210311140641214](https://cdn.jsdelivr.net/gh/ZhsKevin/cdn/projects/resume/13.png)
 
 ## **手机端：**
 
-![在这里插入图片描述](https://cdn.jsdelivr.net/gh/ZhsKevin/cdn/projects/resume/3.png)
+图片预览：https://cdn.jsdelivr.net/gh/ZhsKevin/cdn/projects/resume/12.png
+
+![image-20210311140641214](https://cdn.jsdelivr.net/gh/ZhsKevin/cdn/projects/resume/14.png)
 
 
 
@@ -219,6 +219,13 @@ $theme-color: #126ab8;
 
 
 
-
 希望大家都能找到满意的工作!
 =======
+
+电脑端：
+
+![image-20210311140641214](https://cdn.jsdelivr.net/gh/ZhsKevin/cdn/projects/resume/11.png)
+
+手机端：
+
+![image-20210311140641214](https://cdn.jsdelivr.net/gh/ZhsKevin/cdn/projects/resume/12.png)
